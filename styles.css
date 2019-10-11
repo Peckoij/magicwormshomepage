@@ -1,6 +1,72 @@
+@font-face {
+    font-family: Wood;
+    src: url('dcc_sharp_distress_black_by_dccanim.otf');
+}
+
+body {
+    background-image: url(pics/woodbackground.jpg);
+    font-family: sans-serif;
+}
+
+#container {
+    margin: 5% 15%;
+    font-size: 2em;
+
+}
+
+header h1 {
+    font-family: 'Wood';
+    text-align: center;
+    font-size: 6em;
+}
+
+section {
+    background-color: rgba(4, 100, 164, 0.0);
+    color: #FFF;
+    padding: 0.5em 1em;
+    margin: 2% 0%;
+}
+
+article {
+    background-color: rgba(4, 100, 164, 01.0);
+    margin: 1em 0em;
+    padding: 1em;
+
+}
+
+footer {
+    background-color: rgba(4, 100, 164, 01.0);
+    margin: 1em 0em;
+    padding: 1em;
+    text-align: center;
+}
+
+
+/* Styling for navigation flags */
+nav {
+    text-align: center;
+}
+
 #navFlags li {
     display: inline;
 }
-#navFlags img{
-    border: 1px solid black ;
+
+#navFlags img {
+    // border: 1px solid black; 
+    margin: 2px;
+}
+
+#navFlags img:hover {
+    border: 3px solid black;
+    margin: 0px;
+}
+
+/* Styiling for specific parts, ie. short description block */
+#shortdescription {
+    text-align: center;
+    font-size: 2em;
+}
+
+.placeholder {
+    border: 2px solid red;
 }
