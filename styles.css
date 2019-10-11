@@ -1,0 +1,6 @@
+#navFlags li {
+    display: inline;
+}
+#navFlags img{
+    border: 1px solid black ;
+}
