@@ -11,7 +11,7 @@
   <meta name="author" content="Jon Pekkonen" />
 
   <link rel="stylesheet" type="text/css" href="styles.css">
-
+  <link href="lightbox/css/lightbox.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -24,12 +24,12 @@
       <!-- Navigation between different language versions by clinking flag-->
       <nav id="navFlags">
         <ul>
-          <li><a href="index.html"><img src="icons/flag_US-GB.png" alt="US/GB"></a></li>
+          <li><a href="#"><img src="icons/flag_US-GB.png" alt="US/GB"></a></li>
           <li><a href="GR.html"><img src="icons/flag_GR.png" alt=""></a></li>
-          <li><a href="#"><img src="icons/flag_FR.png" alt=""></a></li>
-          <li><a href="#"><img src="icons/flag_FIN.png" alt=""></a></li>
+          <li><a href="FR.html"><img src="icons/flag_FR.png" alt=""></a></li>
+          <li><a href="FIN.html"><img src="icons/flag_FIN.png" alt=""></a></li>
           <li><a href="RUS.html"><img src="icons/flag_RUS.png" alt=""></a></li>
-          <li><a href="#"><img src="icons/flag_JAP.png" alt=""></a></li>
+          <li><a href="JAP.html"><img src="icons/flag_JAP.png" alt=""></a></li>
         </ul>
       </nav>
 
@@ -43,21 +43,23 @@
         develops insight for eureka moments.
       </article>
       <article class="placeholder">
-        VIDEO OR ANIMMATIOM PLACE HOLDER
+        VIDEO OR ANIMATIOn PLACE HOLDER
       </article>
 
       <article>
-        
-         <h4> Examples of applications:</h4>
-        <p>  Develops insight and encourages eureka moments
+
+        <h4> Examples of applications:</h4>
+        <p> Develops insight and encourages eureka moments
           in children’s daycare centres, is a stimulative
           activity in elderly care homes, makes a great
           business gift and is a fun game for the whole
           family.
         </p>
         <h4>Instructions:</h4>
+        <a data-lightbox="examplepic" id="exampleImageLink" href="pics/example_original.png"><img id="exampleImage" src="pics/example.png"  alt="Picture about product and it's different forms.">
+        </a>
         <p>
-          
+
           Take apart the Mama worm in the picture and mix
           up the baby worms. Turn the baby worms around
           180 degrees and fit them together to rebuild the
@@ -74,7 +76,6 @@
           mixing, you can use the baby worms to build the
           original nest block (please see the oblong block in
           the picture).
-          
         </p>
         <p>
           Recyclable packaging material.
@@ -96,6 +97,8 @@
 
 
   </div>
+
+  <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>

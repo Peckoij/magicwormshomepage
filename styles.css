@@ -4,6 +4,7 @@
 }
 
 body {
+    background-color: bisque; 
     background-image: url(pics/woodbackground.jpg);
     font-family: sans-serif;
     font-size: 1.2em;
@@ -64,7 +65,6 @@ nav {
 }
 
 #navFlags img {
-    // border: 1px solid black; 
     margin: 2px;
 }
 
@@ -77,6 +77,14 @@ nav {
 #shortdescription {
     text-align: center;
     font-size: 1.5em;
+}
+
+#exampleImage {
+   max-width: 100%;
+}
+#exampleImageLink{
+    max-width: 40%;
+    float:right;
 }
 
 .placeholder {
