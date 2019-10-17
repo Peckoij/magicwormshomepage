@@ -104,23 +104,9 @@ nav {
     top:0;
 }
 
-#videoFrameSmall{
-    position: absolute;
-	top: 4%;
-	left: 4%;
-	width: 92%;
-	height: 92%;
+#navFlags ul{
+    padding-inline-start: 0px;
 }
-
-#videoFrameParentSmall {
-	position: relative;
-    padding-bottom: 28.125%; /* 16:9 */
-    height: 0;
-    top:0;
-    left:25%;
-    width: 50%;
-}
-
 
 .placeholder {
     border: 2px solid red;
